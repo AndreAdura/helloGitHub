@@ -3,4 +3,4 @@ time = Hour at computer clock
 
 check the time from computer;
 if time is smaller than 12:00 PM  print "Good Morning"; if  time  is equal or higher than 12:00 but small than 7:00 PM print "Good Afternoon";
-if time is higher than 7:00 but smaller than midnight print "Good night"
+if time is higher than 7:00 but smaller than 1 AM print "Good night"
