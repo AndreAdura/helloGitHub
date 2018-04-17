@@ -1,9 +1,11 @@
 variables; number; sum; counter
 
+process
+sum = 0
 sum = sum + number
 counter = 0
 
-process;
+
 step 1; input a number;
 check if the number is integer;
 if yes go to step 2; if no; print "this is not a valid number"
