@@ -2,7 +2,7 @@ number1; it will be the first number
 number2; it will be the second number
 sum; this is summation of two numbers I will make simple calculation
 
-check if the number is interge
+check if the number is integers
 yes; make the calculation; add numbers in the follwing way
 sum = number1 + number2
 no; print "this is not a number"
