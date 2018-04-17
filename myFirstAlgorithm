@@ -6,3 +6,5 @@ check if the number is integers
 yes; make the calculation; add numbers in the follwing way
 sum = number1 + number2
 no; print "this is not a number"
+
+print "your total is sum"
