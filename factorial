@@ -1,0 +1,19 @@
+variables
+
+number
+sum 
+
+
+initialize
+number = input
+
+sum = sum * number 
+number = number - 1
+
+if number > = 1 
+
+print sum
+
+else calculate again
+
+
