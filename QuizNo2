@@ -65,6 +65,19 @@ if a = b
 sum = sum + b 
   print sum 
 
+2nd way to do
+
+number 1 = input
+number 2 = input
+howManytimes = number 1 - number 2 + 1 
+
+
+if number 1 > number 3 
+swap numbers
+
+
+
+
 Part 2: Carl Friedrich Gauss was a German mathematician who invented a fast and efficient method for adding numbers between 1 and 100. 
 You are required to read about his method and create an algorithm to add numbers between 1 and 100 using Gauss method.
 
