@@ -1,0 +1,88 @@
+a.	Create an algorithm to add all odd numbers from 1 to 100
+
+variables
+
+number
+sum
+
+initializing
+
+number = 1
+sum = 0
+
+
+
+process
+sum = sum + number 
+              
+if num < 99
+  number = number + 2
+if num = 99 
+  print sum  
+
+b.	Create an algorithm to add even numbers from 1 to 100
+
+variables
+
+number
+sum
+
+initializing
+
+number = 2
+sum = 0
+
+
+process
+sum = sum + number 
+              
+if num < 100
+  number = number + 2
+if num = 100
+  print sum  
+
+c.	Create an algorithm to add all numbers between 2 arbitrary numbers.
+
+variables
+
+a
+b
+sum
+
+initializing
+
+a = "arbitrary Number 1"
+b = "arbitrary Number 2"
+sum = 0 
+
+
+process
+sum = sum + a 
+              
+if a < b
+  a = a + 1
+if a = b
+  print sum 
+
+Part 2: Carl Friedrich Gauss was a German mathematician who invented a fast and efficient method for adding numbers between 1 and 100. 
+You are required to read about his method and create an algorithm to add numbers between 1 and 100 using Gauss method.
+
+variables
+a
+b
+sum
+
+initializing
+a = 1
+b = 100
+sum = 0
+
+process
+
+sum = b * (b+1) / 2
+
+
+
+
+
+
