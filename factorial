@@ -1,19 +1,17 @@
+
 variables
 
 number
-sum 
-
+sum
 
 initialize
 number = input
-
-sum = sum * number 
+sum = 1
+process
+sum = sum * number
 number = number - 1
-
-if number > = 1 
-
+if number < 1
 print sum
-
 else calculate again
 
 
