@@ -3,11 +3,17 @@ variables
 number
 divisor
 remainder
+limit
 
 initialize
 number = input
+divisor = 2
+limit = input
 
 process
+
+ if(number > limit)
+ stop
 
 if(number < 2)
 print " it's not prime"
@@ -21,4 +27,28 @@ process again
 
 if(number > 2)
 remainder = number % divisor
+
+if(remeinder = 0)
+print " it's not prime"
+number + = 1
+divisor = 2
+process again
+ 
+ else 
+ divisor + = 1
+ 
+ if(divisor = number)
+ print " it's prime"
+ divisor = 2
+ number + = 1 
+ process again 
+ 
+ if(number > 100)
+ stop
+ 
+ 
+ 
+ 
+ 
+
 
