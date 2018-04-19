@@ -1,0 +1,24 @@
+variables
+
+number
+divisor
+remainder
+
+initialize
+number = input
+
+process
+
+if(number < 2)
+print " it's not prime"
+number += 1
+process again
+
+if(number = 2)
+print "number is prime"
+number += 1
+process again
+
+if(number > 2)
+remainder = number % divisor
+
