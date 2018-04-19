@@ -1,4 +1,4 @@
-a = Area
+a = Area/total
 r = radius
 h = height 
 pi = 3.14
@@ -27,5 +27,5 @@ total = 2*pi*r*(r+h)
 print "total"
 
 else
-print " input valid number for r,h "
+print " input a valid number for r,h "
 
