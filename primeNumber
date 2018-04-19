@@ -43,9 +43,6 @@ process again
  number + = 1 
  process again 
  
- if(number > 100)
- stop
- 
  
  
  
