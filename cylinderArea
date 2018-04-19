@@ -1,0 +1,31 @@
+a = Area
+r = radius
+h = height 
+pi = 3.14
+
+formula
+A = 2*pi*r * (r + h)
+
+variables
+total 
+r 
+h 
+pi
+
+initialize
+a = "Area"
+r = "input ray value"
+h = "input height value" 
+pi = 3.14
+
+process
+
+ask inputs ( r,h)
+
+if ( r,h != > 0)
+total = 2*pi*r*(r+h)
+print "total"
+
+else
+print " input valid number for r,h "
+
