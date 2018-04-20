@@ -1,0 +1,24 @@
+1.	Create an algorithm to separate digits of a positive integer number and print the digits backward. 
+Example:
+Input 712
+Output 2   1    7
+
+
+variables
+a
+b
+c
+result
+----------------------------------------------------------------------------------------
+
+2.	Create an algorithm that find the smallest coefficient of 7 where the remainder of its division to 2, 3, 4, 5, and 6 is 1.
+Hint: when you divide this number to 2, 3, 4, 5, 6 respectively the remainder of it should be one.
+
+
+
+
+
+
+
+
+3.	Create an algorithm to get a radius for a base circle and a height of a cylinder and calculate the total area of the cylinder.
