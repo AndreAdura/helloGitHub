@@ -7,17 +7,17 @@ Output 2   1    7
 variables
 
 number (input)
-chars (number of characters)
+chars (number of characters inputed)
 x
 counter
 
 
-process
+initialize
 counter = 0
 chars = number of inputs
-ask number to user
 
 
+process
 step 1
 number is integer(>0)?
 NO - Print "not valid"
@@ -25,9 +25,7 @@ NO - Print "not valid"
 YES -Next step
 
 step 2
-Separate number by character(character range = 1) or consider the input as letters not numbers(I don't know the syntax for this)
 
-step 3 
 counter ++ (counter increased by 1)
 x = (chars) - (counter)
 swap the first char to the right "x" times;  
@@ -35,7 +33,7 @@ swap the first char to the right "x" times;
 step 4
 char = counter ?
 
-NO - step 3 again
+NO - step 2 again
 
 Yes - print number
 
@@ -50,9 +48,9 @@ Yes - print number
 Hint: when you divide this number to 2, 3, 4, 5, 6 respectively the remainder of it should be one.
 
 variables
-x 
 counter
 number 
+x
 a
 b
 c
@@ -118,32 +116,47 @@ print " input a valid number for r,h "
 -----------------------------------------------------------------------------------------------------------------------------
 
 4.	Create an algorithm to convert a binary number to a decimal number 
-
-variables
-
-binaryNumber
-binaryChars(number of characters)
-powersOfTwo
+variable
+number = input
 decimal
-
-initialize
-
-binaryNumber = input
-powerOfTwo = 1*2
-binaryChars = 0
+char = number of characters inputed
+counter
+sum
 
 process
+counter = 0
 
-for each inputed character binaryChar + = 1 (increase by one)
 
-ask number for user
+step 1
+is the number is binary?
 
-if number is binary(binaryChars = > 0 and < 2) next step
-else print "not binary"
 
-for each inputed character binaryChar + = 1 
+NO - print " not valid"
 
-decimal = binaryNumber(separeted by characters of one) * powerOfTwo * binaryChars
+YES - count the number of characters of the number
+
+step 2
+counter ++
+
+is the number has more than 1 character?
+
+NO - decimal = number * 2^0 , print decimal
+
+YES - enumerate characters
+calculate the character number "counter" 
+sum  = 2^char - counter * character"counter"
+
+
+step 3
+
+is there another charater?
+
+NO - decimal = result,  print decimal
+
+YES - run step 2 again and summate the previous result(sum) of this step(2) with the current and print sum.
+
+
+
 
 
 
