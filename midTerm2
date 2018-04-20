@@ -5,14 +5,76 @@ Output 2   1    7
 
 
 variables
-a
-b
-c
-result
+
+number (input)
+chars (number of characters)
+x
+counter
+
+
+process
+counter = 0
+chars = number of inputs
+ask number to user
+
+
+step 1
+number is integer(>0)?
+NO - Print "not valid"
+
+YES -Next step
+
+step 2
+Separate number by character(character range = 1) or consider the input as letters not numbers(I don't know the syntax for this)
+
+step 3 
+counter ++ (counter increased by 1)
+x = (chars) - (counter)
+swap the first char to the right "x" times;  
+
+step 4
+char = counter ?
+
+NO - step 3 again
+
+Yes - print number
+
+
+
+
+
+
 ----------------------------------------------------------------------------------------
 
 2.	Create an algorithm that find the smallest coefficient of 7 where the remainder of its division to 2, 3, 4, 5, and 6 is 1.
 Hint: when you divide this number to 2, 3, 4, 5, 6 respectively the remainder of it should be one.
+
+variables
+x 
+counter
+number 
+a
+b
+c
+d
+e
+
+initialize
+number = 7
+a = 2
+b = 3
+c = 4
+d = 5
+e = 6
+counter = 1
+
+process
+counter ++ (increment by 1)
+
+x = number * counter
+
+if x % a,b,c,d,e = 1 print x
+else process again
 
 
 
@@ -22,3 +84,66 @@ Hint: when you divide this number to 2, 3, 4, 5, 6 respectively the remainder of
 
 
 3.	Create an algorithm to get a radius for a base circle and a height of a cylinder and calculate the total area of the cylinder.
+
+a = Area/total
+r = radius
+h = height 
+pi = 3.14
+
+formula
+a = 2*pi*r * (r + h)
+
+variables
+a 
+r 
+h 
+pi
+
+initialize
+r = "input radius value"
+h = "input height value" 
+pi = 3.14
+
+process
+
+ask inputs ( r,h)
+
+if ( r,h != > 0)
+a = 2*pi*r*(r+h)
+print "a"
+
+else
+print " input a valid number for r,h "
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+4.	Create an algorithm to convert a binary number to a decimal number 
+
+variables
+
+binaryNumber
+binaryChars(number of characters)
+powersOfTwo
+decimal
+
+initialize
+
+binaryNumber = input
+powerOfTwo = 1*2
+binaryChars = 0
+
+process
+
+for each inputed character binaryChar + = 1 (increase by one)
+
+ask number for user
+
+if number is binary(binaryChars = > 0 and < 2) next step
+else print "not binary"
+
+for each inputed character binaryChar + = 1 
+
+decimal = binaryNumber(separeted by characters of one) * powerOfTwo * binaryChars
+
+
+
