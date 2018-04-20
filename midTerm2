@@ -7,7 +7,7 @@ Output 2   1    7
 variables
 
 number (input)
-chars (number of characters inputed)
+chars (number of characters inputted)
 x
 counter
 
@@ -149,7 +149,7 @@ sum  = 2^char - counter * character"counter"
 
 step 3
 
-is there another charater?
+is there another character?
 
 NO - decimal = result,  print decimal
 
