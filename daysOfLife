@@ -1,0 +1,38 @@
+birthday 28 06 1990
+todays   26 04 2018
+
+year check 2018 - 1990
+total = 28 * 365 = 10220
+
+month check
+april 4 - jun 6 
+10 months = 30(jun)+31(jul)+31(aug)+30(sep)+31(oct)+30(nov)+31(dec)+31(jan)+28(feb)+31(mar) 
+total = 304
+
+days check
+26(30 - 26 Apr) = 4 +  (1 - 28 jun) = 32
+total 32 
+
+leap years:
+1992  1996  2000  2004  2008  2012  2016
+total 7
+
+days = 10563
+difference 399
+
+______________________________________________________________________________________________________________
+
+todays date
+2018 * 365 = 736570
+31+28+31+26 = 116
+leap + 247
+total = 736933
+
+birthday
+
+1990 * 365 = 726350
+31+28+31+26+31+28 = 175
+leap = 216
+total = 726741
+
+difference 28
