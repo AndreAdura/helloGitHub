@@ -1,0 +1,110 @@
+Algorithms, Flowcharts and problem solving
+Final Exam
+
+1.	Create an algorithm to get a series of numbers and by pressing 0 calculate the average of those numbers, then print the maximum, the minimum and the average number.
+Variables:
+a = number 1(input)
+b = number 2(input)
+c = number 3 (input)
+average
+minimum
+medium 
+maximum
+divisor = number of inputs (in this case 3)
+
+initialize
+divisor = 3 (I can create a counter to calculate the divisor but the question is not asking for that, so I’ll declare it)
+process
+step 1 = ask for the numbers (input numbers a, b, c)
+numbers was inputted? 
+Yes – go step 2
+No – go step 1
+Step 2 = ask for input “0” ( print “press 0”)
+0 was pressed?
+No – Go step 2
+Yes – Go step 3
+Step 3 – process
+ average = a+b+c / divisor
+
+if (a > b and > c) { maximum = a }
+if (b > a and > c) { maximum = b}
+if (c > a and > b) [ maximum = c}
+ 
+if (a < b and < c) { minimum = a }
+if (b < a and < c) { minimum = b}
+if (c < a and < b) [ minimum = c}
+
+if (a =! minimum and maximum) { a = medium} 
+if (b =! minimum and maximum) { b = medium} 
+if (c =! minimum and maximum) { c = medium} 
+
+step 4 – output
+Print (The maximum number is “ maximum”, The average number is “ medium”, The minimum number is “ minimum” and the average of these numbers is “ average”)
+
+END 
+
+
+
+
+
+
+ 
+
+2.	Create a flow chart that calculates the Pi based on the 10 first term of the following series 
+
+4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + 4/13-…
+
+ 
+
+https://github.com/AndreAdura/helloGitHub/blob/master/piBaseDiagram.png
+
+ERROR CHECK with JavaScript
+
+var divisor = 3;
+undefined
+var pi;
+undefined
+divisor
+3
+var base = 4;
+undefined
+base
+4
+pi = base - base/divisor + base / (divisor +2) - base / (divisor +4) + base / (divisor + 6) - base /  (divisor + 8) + base / (divisor + 10) - base / (divisor + 12) + base / (divisor + 14) - base / (divisor + 16) + base / (divisor + 18)
+3.232315809405594
+pi
+3.232315809405594
+
+
+
+3.	Create a simple VB, C or JavaScript program that calculates the factorial of a given number. 
+JavaScript:
+// while loop
+var i=5, sum=1;
+
+while(i> 0)
+{
+sum = sum* i; i -= 1;
+}
+alert(sum)
+
+
+
+
+
+// for loop
+
+var i=5, sum=1;
+	
+
+	for(i==5; i>0; i-=1)
+	{
+	sum *= i 
+	}
+	alert(sum);
+
+4.	Create a flowchart for adding numbers from 1 to 1000 using Gauss method.
+ 
+https://github.com/AndreAdura/helloGitHub/blob/master/GaussDiagram.png
+
+
