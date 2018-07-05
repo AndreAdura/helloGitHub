@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+
+
+int main()
+{
+	int bDayYear, bdayMonth, bDay;
+	int tDayYear, tDayMonth, tDay;
+	int year, month, day;
+
+	tDayYear = scanf("%d", &tDayYear);
+	bdayMonth = scanf("%d", &bdayMonth);
+	bDay = scanf("%d", &bDay);
+	tDayYear = scanf("%d", &tDayYear);
+	tDayMonth = scanf("%d", &tDayMonth);
+	tDay = scanf("%d", &tDay);
+
+	year = tDayYear - bDayYear;
+
+	if (month < 0) {
+		year -= 1;
+		month += 12;
+
+	}
+	else if (month > 0) {
+		if (day < 0) {
+			month -= 1 ; day +=30
+		}
+		else {
+			printf("%d", &year, &month, &day);
+		}
+	}
+
+	return 0;
